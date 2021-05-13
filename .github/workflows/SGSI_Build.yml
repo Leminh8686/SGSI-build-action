@@ -70,7 +70,7 @@ jobs:
 
        - name: Repack output file ...
          run: |            
-             cd $GITHUB_WORKSPACE/SGSI-build-tool
+             cd $GITHUB_WORKSPACE/SGSI-build-tool/12
              pwd
              zip -r $REPACK_NAME ./SGSI/*
              ls "$REPACK_NAME"
